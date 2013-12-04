@@ -1,0 +1,6 @@
+project Calculator is
+
+   for Main use ("calculator.adb");
+
+end Calculator;
+

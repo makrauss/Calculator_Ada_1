@@ -1,0 +1,185 @@
+V "GNAT Lib v2013"
+M P W=b
+A -gnatA
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U calculator%b		calculator.adb		fdd56abe NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.float_io%s
+W interfaces%s		interfac.ads		interfac.ali
+W list%s		list.adb		list.ali
+W stack%s		stack.adb		stack.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-charac.ads		20130417131018 2d3ec45b
+D a-chlat1.ads		20130417131018 2825df20
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-numeri.ads		20130417131020 bb51c45a
+D a-numaux.ads		20130417131020 243fe0b7
+D a-ngelfu.ads		20130417131020 243903c9
+D a-ngelfu.adb		20130417131020 859ccdff
+D a-stream.ads		20130417131020 2ca4ee37
+D a-string.ads		20130417131020 90ac6797
+D a-strmap.ads		20130417131020 9cb836fb
+D a-strunb.ads		20130417131020 3f91d4c5
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tiflau.ads		20130417131022 c0393f21
+D a-tiflio.ads		20130417131022 56fbda09
+D a-tiflio.adb		20130417131022 fd9b1cfc
+D a-unccon.ads		20130417131022 f9eb8f06
+D calculator.adb	20131203235224 9d01dabc
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D list.ads		20131203134320 db8bfed1
+D list.adb		20131203134312 c3d3f298
+D stack.ads		20131203224506 b0bfb32b
+D stack.adb		20131203224506 3df94b77
+D system.ads		20130417131036 5fc8ae56
+D s-atocou.ads		20130417131028 4a9c6cb4
+D s-atocou.adb		20130417131028 c864ec10
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-exnllf.ads		20130417131028 81841eef
+D s-fatgen.ads		20130417131028 9267ca45
+D s-fatlfl.ads		20130417131028 378cba9f
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-maccod.ads		20130417131030 0fbb7bce
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-secsta.ads		20130417131032 eea35a36
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-stposu.ads		20130417131032 ffeba1c5
+D s-stratt.ads		20130417131032 aedef97e
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 21|1r6 2r6 3r5 7r5 8r5 9r5 10r6 10r34
+X 2 a-charac.ads
+16K13*Characters 18e19 21|10r10 10r38
+X 3 a-chlat1.ads
+20K24*Latin_1 298e27 21|10w21 10r49
+36e4*HT{character} 21|48r24
+65e4*Space{character} 21|48r39
+X 7 a-numeri.ads
+16K13*Numerics 32e17 21|3r9 9r9
+X 9 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 154e46 21|3w18 24r5
+X 12 a-string.ads
+16K13*Strings 35e16 21|2r10 8r9
+X 14 a-strunb.ads
+76K21*Unbounded 489e26 21|2w18 8r17
+79R9*Unbounded_String 473e14 21|40r29
+X 16 a-textio.ads
+49K13*Text_IO 471e16 21|1w10 7r9
+73I12*Field{integer}
+166U14*New_Line 21|226s10
+169U14*Skip_Line 21|181s4 194s7
+206U14*Get 21|72s13 77s16 80s16 83s16 86s16
+215U14*Look_Ahead 21|67s13
+242U14*Put 21|215s7 222s10 224s10
+X 18 a-tiflio.ads
+45k21*Float_IO 88e25 21|19r5
+56U14 Get 21|90s22[18]
+78U14 Put 21|205s7[18]
+79s7 To{string} 21|205r12[18]
+80f7 Item{21|15F6} 21|205r21[18]
+81i7 Aft{16|73I12} 21|205r32[18]
+82i7 Exp{16|73I12} 21|205r56[18]
+X 21 calculator.adb
+12U11*calculator 12b11 230l5 230t15
+15F6 VAL_TYPE<long_float> 19r15 24r35 26r34 33r30 39r14 120r23 133r35 198r33
+. 205r39 220r18
+18K9 VAL_TYPE_IO[18|45] 20r5
+23K9 VAL_TYPE_FUNCTIONS[9|39] 25r5
+26K9 Value_Stack[26|7] 27r5
+30X1 SYNTAX_ERROR 94r31 97r25 188r16
+31X1 DIVIDE_BY_ZERO 134r31
+32X1 No_Expression_Error 184r16 191r9
+33V13 Calculate{15F6} 33b13 196l8 196t17 223s20
+34E12 Token_Type 35e51 36r41 38r14 42r33
+35n10 '+'{34E12} 78r23 110r27 150r21
+35n14 '-'{34E12} 81r23 112r27 153r21
+35n18 '*'{34E12} 84r23 127r24
+35n22 '/'{34E12} 87r23 130r24
+35n26 '$'{34E12} 166r18
+35n31 Number{34E12} 91r29 108r27
+35n39 End_Of_Line{34E12} 69r23
+36K15 Token_Stack[26|7] 62r17 63r20 116r25 139r22 158r19 171r10
+38e7 Token{34E12} 106m19 107r24 116r43 125m16 126r21 139r40 148m13 149r18
+. 158r37 165m7 166r10 171r27
+39f7 Value{15F6} 90m27 109r30
+40r7 ID{14|79R9} 167r29
+40r11 Last_Identifier{14|79R9} 167m10
+42V16 Get_Token{34E12} 42b16 100l11 100t20 106s28 125s25 148s22 165s15
+43b10 EOL{boolean} 67m28 68r16
+44e10 C{character} 67m25 71r36 72m18 75r15 77m20 80m20 83m20 86m20
+46V19 Is_Space{boolean} 46b19 46>29 49l14 49t22 71s27
+46e29 C{character} 48r20 48r35
+51V19 Is_Digit{boolean} 51b19 51>29 59l14 59t22
+51e29 C{character} 53r18
+101U16 Parse_Expr0 101b16 174l8 174t19 180s4
+102U17 Parse_Expr1 102b17 162l11 162t22 168s10 173s7
+103U20 Parse_Expr2 103b20 143l14 143t25 146s10 151s19 154s19
+104U23 Parse_Expr3 104b23 111s25 113s25 118l17 118t28 123s13 128s22 131s22
+120f13 Divisor{15F6} 132m22 133r25 136r37
+198U15 Put_Adaptive 198b15 198>29 216l8 216t20 225s10
+198f29 X{15F6} 205r29
+200a7 S{string} 201r27 202r26 205m18 206r13 209r13 212r10 215r12
+201i7 First{positive} 206r16 207m10 207r19 215r15
+202i7 Last{positive} 209r16 210m10 210r18 212r13 213m10 213r18 215r24
+220f10 Result{15F6} 223m10 225r23
+X 24 list.ads
+5k9*list 21|5w5 24|19e9
+X 26 stack.ads
+7k9*stack 21|4w5 26r28 36r34 26|32e10
+13U11 Push 21|109s25[26] 114s25[26] 116s37[36] 129s22[26] 136s25[26] 139s34[36]
+. 152s19[26] 156s19[26] 158s31[36] 171s22[36]
+16V13 Pop{21|34E12} 21|63s32[36] 114s31[26] 129s28[26] 129s34[26] 132s33[26]
+. 136s31[26] 152s25[26] 152s31[26] 156s25[26] 156s30[26] 186s17[26]
+20U14 Swap 21|155s19[26]
+28V10 Is_Empty{boolean} 21|62s29[36]
+30V13 Capacity{natural} 21|182s9[26]
+
